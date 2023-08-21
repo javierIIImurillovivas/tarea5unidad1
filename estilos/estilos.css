@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:wheat;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+    .ti{
+        padding-top: 10px;
+        text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        background-color: #408e91;
+        
+    }
+    
+    #contenido{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    #destacados{
+        background-color: #245953;
+        border-radius: 25px;
+        
+    }
+    #destacados h1{
+        color: black;
+    }
+
+    #ofertas h1{
+        background-color: #408e91;
+    }
+
+    #disponible h1{
+        background-color: #37306b;
+        color: white;
+    }
+
+    #destacados .contenedor >div
+    {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        background-color:white;
+        width: 50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
+    }
+
+    #ofertas .contenedor >div {
+        background-color: white;
+        box-shadow: 4px 8px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        width: 33.3%;
+    }
+
+    #disponible .contenedor >div {
+        box-shadow: 4px 8px #D46A6A;
+        text-align: center;
+        padding: 10px;
+        border:solid 5px coral;
+        background-color: white;
+        width: 25%;
+    }
+
+    header h1{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    footer{
+        border-top: solid 2px #37306b;
+        margin-top:30px;
+        text-align: center;
+        color:black;
+        
+    }
+    h1{
+        padding-top: 30px;
+        padding-bottom:30px;
+    }
+   
